@@ -37,9 +37,4 @@ Now write an e-mail to Mingxuan **and** Theresa with a link to the repo and your
 To give you efficient feedback, also add these three GitHub accounts with permission level *write*:
 - MingxuanChe
 - DuyPhamQuang
-- TheEimer
-
-## First Paper
-This week there's no Level 3 exercise, but an introductory paper. This is the start of the seminar session and you have very little background so far, so don't read the full paper!
-We're mainly talking about the motivation, so focus on Abstract and Introduction. If that works well for you already, skim the plots and result discussion. Simply ignore parts like the Related Work or Methodology, these will come into play in the next weeks. Since you also have less time to read the paper, the quiz will be very short and high-level.
-The paper is available to read here: https://arxiv.org/pdf/1703.03078
+- TheEimer8
