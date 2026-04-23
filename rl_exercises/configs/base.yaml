@@ -9,7 +9,7 @@ hydra:
   
 seed: 0
 training_steps: 1e5
-env_name: Pendulum-v1
+env_name: MarsRover
 env_kwargs: {}
 agent_kwargs: {}
 eval_every_n_steps: 1000

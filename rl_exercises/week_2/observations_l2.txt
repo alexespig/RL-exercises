@@ -1,0 +1,7 @@
+Policy iteration experiment:
+With changes on gemma:
+For gamma = 1, I got problems that the programm did not end. This means that it always want to get the 1 regard on the right and do not look for the end rewards.
+The smaller the gamma, the faster it goes to the right
+
+Value iteration experiment:
+In this case the policy changes with the gamma, and the reward is quite low compare to the one obtained to the policy, because the non-deterministic makes it more harder to learn.

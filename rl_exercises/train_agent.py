@@ -55,10 +55,15 @@ def train(cfg: DictConfig) -> float:
     """
     env = make_env(cfg.env_name, cfg.env_kwargs)
     printr(cfg)
+    gamma = 0.9
     if cfg.agent == "sb3":
         return train_sb3(env, cfg)
     elif cfg.agent == "random":
         agent = RandomAgent(env)
+    elif cfg.agent == "policy_iteration":
+        agent = PolicyIteration(env, gamma)
+    elif cfg.agent == "value_iteration":
+        agent = ValueIteration(env, gamma)
     else:
         # TODO: add your agent options here
         raise NotImplementedError
